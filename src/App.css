@@ -66,3 +66,32 @@
 h1,h2,h3,h4,h5,h6{
   margin: 0;
 }
+
+.employeeGrid{
+  display: flex;
+  max-width: 75rem;
+  margin: 2rem auto;
+}
+
+.left-employee{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  gap: 2rem 1rem;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+}
+
+.details-style{
+  background-color: rgb(65 140 76);
+  border-radius: 10px;
+  padding: 2rem 1rem;
+}
+
+.det-btn{
+  background-color: #282c34;
+  font-size: 1rem;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
