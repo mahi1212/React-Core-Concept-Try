@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.count-style{
+  background-color: cadetblue;
+  color: #fff;
+  max-width: 30rem;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  box-shadow: 2px 4px 5px #ccc;
+  border-radius: 10px;
+}
+
+.btn-style{
+  background-color: rgb(14, 89, 133);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.workshop-style{
+  text-align: left;
+  background-color: silver;
+  padding:0.5rem 2rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
